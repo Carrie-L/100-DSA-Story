@@ -1,7 +1,7 @@
 {
-  "completed_stories": 16,
+  "completed_stories": 17,
   "total_stories": 100,
-  "current_story": "线索二叉树（Threaded Binary Tree）",
+  "current_story": "哈夫曼树（Huffman Tree）",
   "last_updated": "2025-01-02",
   "completed_topics": [
     {
@@ -153,6 +153,24 @@
       "word_count": 5200,
       "completed_date": "2025-01-02",
       "notes": "通过安妮对递归遍历栈溢出问题的担忧引入线索二叉树概念，展示了如何利用50%的空指针域存储前驱后继信息。从空间浪费分析开始，详细讲解线索化的核心思想、标志位设计、中序线索化过程。包含完整的ThreadedTreeNode和ThreadedBinaryTree类实现，展示无栈遍历和O(1)前驱后继查找的强大功能。通过优缺点对比和实际应用案例，让读者理解线索二叉树的适用场景。体现了'在约束中寻找机会'的工程智慧，强调资源利用和性能优化的平衡艺术。"
+    },
+    {
+      "id": 17,
+      "topic": "二叉搜索树（Binary Search Tree, BST）",
+      "filename": "第17章_有序世界的秘密花园.md",
+      "status": "completed",
+      "word_count": 4900,
+      "completed_date": "2025-01-02",
+      "notes": "通过安妮整理书架引入BST概念，深入讲解左小右大的核心规则和O(log n)效率原理。详细演示查找、插入、删除三种基本操作，特别是删除操作的三种情况处理。用生活化比喻解释算法原理，如猜数字游戏类比查找过程。包含完整的代码实现和白板图示，强调BST退化问题和平衡树的必要性。体现了'有序不是束缚而是优雅'的设计哲学。"
+    },
+    {
+      "id": 18,
+      "topic": "哈夫曼树（Huffman Tree）",
+      "filename": "第18章_编码世界的温柔秘密.md",
+      "status": "completed",
+      "word_count": 5600,
+      "completed_date": "2025-01-02",
+      "notes": "通过伊莎贝尔的文件压缩需求引入哈夫曼编码概念，深入讲解基于字符频率的最优前缀编码原理。详细演示哈夫曼树构建过程、编码表生成、文本编码解码的完整流程。用生活化比喻解释贪心构造算法，强调前缀编码的无歧义特性。包含完整的HuffmanCoder和FileCompressor类实现，展示压缩效果分析和实际应用场景。体现了'最温柔的关怀就是给最需要的人最多的爱'的算法哲学，呼应高频字符获得短编码的设计思想。"
     }
   ],
   "writing_style": "updated_prompt_v2_candy_style_finalized",
